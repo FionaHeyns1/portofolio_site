@@ -1,0 +1,177 @@
+.forside {
+  background-color: var(--farve_1);
+}
+
+.temaside {
+  background-color: var(--farve_2);
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* OVERSKRIFTEN*/
+
+h1 {
+  text-decoration: none;
+  color: var(--farve_3);
+  text-shadow: 2px 0px 0px var(--farve_6);
+  font-size: 60px;
+  font-family: "Judson", serif;
+  margin-left: 1em;
+  grid-column: 1/4;
+}
+
+a {
+  text-decoration: none;
+  color: var(--farve_3);
+}
+
+a:hover {
+  color: var(--farve_6);
+}
+
+/* MENU */
+
+.menu {
+  display: none;
+  list-style: none;
+}
+
+.menu-punkter {
+  color: var(--farve_6);
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 20px;
+  margin-bottom: 10em;
+}
+
+nav.active .menu {
+  display: block;
+  background-color: var(--farve_4);
+  color: var(--farve_2);
+  position: absolute;
+  top: 94px;
+  margin-left: 3.5em;
+  margin-top: 2em;
+  width: 60%;
+  height: 20em;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+nav.active .menu li {
+  margin: 20px 20px;
+}
+
+nav.active .menu-punkter:hover {
+  color: var(--farve_2);
+}
+
+/* DE 3 STREGER */
+
+.temaside .burger {
+  color: var(--farve_2);
+  background-color: var(--farve_2);
+}
+
+.burger {
+  width: 50px;
+  cursor: pointer;
+  color: var(--farve_2);
+  background-color: transparent;
+  border: 0;
+}
+
+.burger .line {
+  display: block;
+  width: 100%;
+  height: 5px;
+  background-color: var(--farve_3);
+  margin-bottom: 5px;
+  transition: 0.2s linear;
+  border-radius: 15px;
+}
+
+.burger:hover .line {
+  background-color: var(--farve_6);
+}
+
+/* FOOTER */
+
+.footer_knap {
+  border: 0;
+  background-color: var(--farve_3);
+  border-radius: 15px;
+  padding: 3em;
+  margin: 1em;
+  box-shadow: 0px 2px 3px black;
+  text-shadow: 0px 4px 4px black;
+}
+.footer_knap a {
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.knapper_samlet {
+  margin-left: 5em;
+}
+
+html {
+  /* FARVER */
+  --farve_1: rgba(229, 245, 255, 1);
+  --farve_2: rgba(58, 0, 14, 1);
+  --farve_3: rgba(250, 160, 216, 1);
+  --farve_4: rgba(255, 203, 225, 1);
+  --farve_5: rgba(182, 228, 255, 1);
+  --farve_6: rgba(231, 97, 172, 1);
+}
+
+/* SKRIFT TYPER*/
+
+.judson-regular {
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.judson-bold {
+  font-family: "Judson", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
