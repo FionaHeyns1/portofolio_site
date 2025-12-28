@@ -168,6 +168,36 @@ nav.active .menu-punkter:hover {
   font-style: normal;
 }
 
+.knapper_samlet {
+  margin-top: 2em;
+}
+
+.website-label {
+  color: var(--farve_3);
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  margin-left: 2.4em;
+}
+
+.website-link {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  margin-left: 3.3em;
+}
+
+.midter_streg_temasider {
+  width: 400px; /* hvor lang stregen skal være */
+  height: 2px; /* tykkelsen af stregen */
+  background-color: var(--farve_4);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8em;
+}
+
 html {
   /* FARVER */
   --farve_1: rgba(229, 245, 255, 1);
