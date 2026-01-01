@@ -1,0 +1,52 @@
+.overskrift_tema5 {
+  color: var(--farve_5);
+  margin-left: 1em;
+  font-size: 50px;
+  font-family: "Judson", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.tekstafsnit_tema5 {
+  font-size: 18px;
+  color: var(--farve_4);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 3em;
+  margin-right: 6em;
+  line-height: 32px;
+  margin-bottom: 3em;
+}
+
+.tema5_billeder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 430px;
+}
+
+.wireframe {
+  grid-column: 1/2;
+  height: 70%;
+  border-radius: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.landbageriet_site {
+  grid-column: 2/3;
+  height: 70%;
+  border-radius: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  display: block;
+  width: 70%;
+  height: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8em;
+  margin-bottom: 7em;
+}
