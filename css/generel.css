@@ -71,6 +71,10 @@ h1 {
   grid-column: 1/4;
 }
 
+H1:hover {
+  color: var(--farve_3);
+}
+
 a {
   text-decoration: none;
   color: var(--farve_3);
