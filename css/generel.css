@@ -100,6 +100,15 @@ a:hover {
   margin-bottom: 10em;
 }
 
+.menu-punkter-index {
+  color: var(--farve_6);
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 20px;
+  margin-bottom: 10em;
+}
+
 nav.active .menu {
   display: block;
   background-color: var(--farve_4);
@@ -254,4 +263,160 @@ html {
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-style: normal;
+}
+
+@media (width>=850px) {
+  h1 {
+    display: block;
+    text-decoration: none;
+    color: var(--farve_3);
+    text-shadow: 2px 0px 0px var(--farve_6);
+    font-size: 140px;
+    font-family: "Judson", serif;
+    grid-column: 1/5;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  H1:hover {
+    color: var(--farve_3);
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--farve_3);
+  }
+
+  a:hover {
+    color: var(--farve_6);
+  }
+
+  /* Skjul burgeren helt */
+  .burger {
+    display: none;
+  }
+
+  /* Vis menuen */
+
+  .menu_wrap {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+
+  .menu {
+    display: flex;
+    gap: 8em;
+    width: 100%;
+    list-style: none;
+    margin-bottom: 10em;
+    margin-left: 5em;
+  }
+
+  .menu-punkter-index {
+    color: var(--farve_2);
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+  }
+
+  .menu-punkter-index-tema4 {
+    color: var(--farve_2);
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+  }
+
+  .menu-punkter {
+    color: var(--farve_3);
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+  }
+
+  /* Fjern mobil-dropdown styling */
+  nav.active .menu {
+    position: static;
+    background: none;
+    box-shadow: none;
+    width: auto;
+    height: auto;
+    margin: 0;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h2 {
+    color: var(--farve_5);
+    text-shadow: 0px 4px 4px black;
+    text-align: center;
+    font-size: 150px;
+    font-family: "Judson", serif;
+    font-weight: 700;
+    font-style: normal;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    margin-top: 20em;
+    text-shadow: 4px 4px 4px black;
+  }
+
+  .text_pa_billede {
+    position: relative;
+  }
+
+  /*footer*/
+  .footer_knap {
+    border: 0;
+    background-color: var(--farve_3);
+    border-radius: 15px;
+    padding: 4em;
+    margin: 1em;
+    box-shadow: 0px 2px 3px black;
+    text-shadow: 0px 4px 4px black;
+  }
+
+  .knapper_samlet {
+    display: flex;
+    margin-top: 4em;
+    gap: 2em;
+    margin-left: 8em;
+  }
+
+  .footer_knap a {
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+  }
+
+  .midter-streg {
+    width: 800px; /* hvor lang stregen skal være */
+    height: 3px; /* tykkelsen af stregen */
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+  }
+
+  .midter_streg_temasider {
+    width: 800px; /* hvor lang stregen skal være */
+    height: 3px; /* tykkelsen af stregen */
+    background-color: var(--farve_4);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8em;
+  }
 }
