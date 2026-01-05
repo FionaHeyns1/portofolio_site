@@ -209,6 +209,14 @@ nav.active .menu-punkter:hover {
   font-style: normal;
   margin-left: 2.4em;
 }
+.midter_streg_temasider {
+  width: 400px; /* hvor lang stregen skal være */
+  height: 2px; /* tykkelsen af stregen */
+  background-color: var(--farve_4);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
 
 .website-link {
   color: white;
@@ -216,23 +224,6 @@ nav.active .menu-punkter:hover {
   font-weight: 900;
   font-style: normal;
   margin-left: 3.3em;
-}
-
-/* får anden linje ved link til at starte pænt */
-
-a {
-  display: block;
-  text-align: left;
-  text-indent: 0;
-}
-
-.midter_streg_temasider {
-  width: 400px; /* hvor lang stregen skal være */
-  height: 2px; /* tykkelsen af stregen */
-  background-color: var(--farve_4);
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 8em;
 }
 
 html {
