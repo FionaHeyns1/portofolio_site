@@ -132,6 +132,10 @@ nav.active .menu-punkter:hover {
   color: var(--farve_2);
 }
 
+.mobil-nav-linje {
+  display: none;
+}
+
 /* DE 3 STREGER */
 
 .temaside .burger {
@@ -291,6 +295,38 @@ html {
     color: var(--farve_6);
   }
 
+  .p-forside {
+    color: var(--farve_2);
+    padding: 2.3em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin-left: 8em;
+    margin-right: 8em;
+    margin-top: 15em;
+    margin-bottom: 5em;
+    line-height: 40px;
+  }
+
+  #forside-knap {
+    color: var(--farve_1);
+  }
+
+  #forside-knap-tema {
+    color: var(--farve_2);
+  }
+
+  /* billede */
+
+  .billede_fotostudie {
+    display: block;
+    width: 99%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   /* Skjul burgeren helt */
   .burger {
     display: none;
@@ -300,7 +336,9 @@ html {
 
   .menu_wrap {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
+    margin-left: 0;
   }
 
   .menu {
@@ -308,10 +346,14 @@ html {
     gap: 8em;
     width: 100%;
     list-style: none;
-    margin-bottom: 10em;
-    margin-left: 5em;
+    margin-bottom: 3em;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
   }
 
+  .anti-linje-brud {
+    white-space: nowrap;
+  }
   .menu-punkter-index {
     color: var(--farve_2);
     font-family: "Poppins", sans-serif;
@@ -331,7 +373,7 @@ html {
   }
 
   .menu-punkter {
-    color: var(--farve_3);
+    color: white;
     font-family: "Poppins", sans-serif;
     font-weight: 900;
     font-style: normal;
@@ -373,6 +415,37 @@ html {
 
   .text_pa_billede {
     position: relative;
+  }
+
+  .desktop-linje {
+    display: block;
+    width: 640px; /* hvor lang stregen skal være */
+    height: 3px; /* tykkelsen af stregen */
+    background-color: var(--farve_4);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .linje-overskrift {
+    color: var(--farve_3);
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+    margin-bottom: 18em;
+    margin-top: 2em;
+    text-align: center;
+  }
+
+  .linje-overskrift-forside {
+    color: var(--farve_3);
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+    margin-bottom: 9em;
+    margin-top: 2em;
+    text-align: center;
   }
 
   /*footer*/
