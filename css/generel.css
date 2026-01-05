@@ -136,6 +136,18 @@ nav.active .menu-punkter:hover {
   display: none;
 }
 
+.desktop-linje {
+  display: none;
+}
+
+.linje-overskrift {
+  display: none;
+}
+
+.linje-overskrift-forside {
+  display: none;
+}
+
 /* DE 3 STREGER */
 
 .temaside .burger {
@@ -432,9 +444,10 @@ html {
     font-weight: 900;
     font-style: normal;
     font-size: 20px;
-    margin-bottom: 18em;
+    margin-bottom: 8em;
     margin-top: 2em;
     text-align: center;
+    display: block;
   }
 
   .linje-overskrift-forside {
@@ -443,9 +456,10 @@ html {
     font-weight: 900;
     font-style: normal;
     font-size: 20px;
-    margin-bottom: 9em;
+    margin-bottom: 10em;
     margin-top: 2em;
     text-align: center;
+    display: block;
   }
 
   /*footer*/
