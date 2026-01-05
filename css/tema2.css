@@ -81,3 +81,13 @@ html {
   --farve_5: rgba(182, 228, 255, 1);
   --farve_6: rgba(231, 97, 172, 1);
 }
+
+@media (width>=850px) {
+  .overskrift_tema2 {
+    margin-left: 1em;
+    font-size: 120px;
+    font-family: "Judson", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+}
