@@ -51,6 +51,12 @@
   margin-bottom: 7em;
 }
 
+#figma-link {
+  display: block;
+  text-align: left;
+  text-indent: 0;
+}
+
 @media (width>=850px) {
   .overskrift_tema5 {
     margin-right: 1em;
