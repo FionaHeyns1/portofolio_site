@@ -49,6 +49,11 @@
   margin-right: auto;
   border-radius: 5px;
 }
+#figma-link {
+  display: block;
+  text-align: left;
+  text-indent: 0;
+}
 
 @media (width>=850px) {
   .overskrift_tema3 {
